@@ -10,3 +10,7 @@ function takeANumber (list, name) {
   list.push (name)
   return `Welcome, ${name}. You are number ${list.length} in line.`
 }
+
+function currentLine(katzDeliLine) {
+  
+}
