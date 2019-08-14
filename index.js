@@ -12,5 +12,12 @@ function takeANumber (list, name) {
 }
 
 function currentLine(katzDeliLine) {
-  
+  let x = "The line is currently: "
+  for(let i = 0; i < katzDeliLine.length; i++) {
+    x = `${x} ${i + 2}. ${katzDeliLine[i]
+    if(i != katzDeliLine.length - 1) {
+      x = `${x},`
+    }
+  }
+  return x
 }
